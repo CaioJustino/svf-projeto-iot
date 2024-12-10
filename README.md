@@ -1,6 +1,6 @@
 # Sistema de Validação de Frequência (SVF)
 
-Sistema de Validação de Frequência (SVF), um projeto para a disciplina de Introdução a Internet das Coisas (IIC). O seu objetivo é verificar a presença dos alunos nas mesas de trabalho durante as aulas. Nessa aplicação, desenvolvida em C++, foram utilizados o [SPIFFS](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/storage/spiffs.html) ("SPI Flash File System", isto é, Sistema de Arquivo Flash de Interface Periférica Serial) e a [Adafruit.IO](https://io.adafruit.com/) (plataforma de IoT).
+Sistema de Validação de Frequência (SVF), um projeto para a disciplina de Introdução a Internet das Coisas (IIC). O seu objetivo é verificar a presença dos alunos nas mesas de trabalho durante as aulas. Nessa aplicação, desenvolvida em [C++](https://learn.microsoft.com/pt-br/cpp/cpp/?view=msvc-170), foram utilizados o [SPIFFS](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/storage/spiffs.html) ("SPI Flash File System", isto é, Sistema de Arquivo Flash de Interface Periférica Serial) e a [Adafruit.IO](https://io.adafruit.com/) (plataforma de IoT).
 <br><br>
 
 ## 📋 Pré-requisitos
@@ -16,7 +16,7 @@ A princípio, antes de executar o sistema, certifique-se de montar o [Circuito](
 git clone https://github.com/CaioJustino/svf-projeto-iot.git
 ```
 
-2. Na sua IDE, certifique de instalar a biblioteca "PubSubClient" para lidar com as dependências da conexão com o "Adafruit.IO".
+2. Na sua IDE, certifique de instalar a biblioteca "PubSubClient" para lidar com as dependências da conexão com a Adafruit.IO.
 
 ```
 Na "Arduino IDE", acesse: Ferramentas > Gerenciar bibliotecas > PubSubClient
@@ -43,6 +43,5 @@ run
 
 ## ❤ Agradecimentos
 
-* **Professor** - [Leonardo Augusto](https://github.com/linkParaPerfil)
-* **Monitor** - [Gabriel](https://github.com/linkParaPerfil)
+Agradecimentos especiais ao professor Leonardo Augusto e ao monitor Gabriel por todo o suporte prestado ao decorrer do desenvolvimento desse projeto.
 <br><br>

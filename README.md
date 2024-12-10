@@ -1,93 +1,48 @@
-# Validação Sequencial de Frequência (VSF)
+# Sistema de Validação de Frequência (SVF)
 
-Validação Sequencial de Frequência (VSF), um projeto para a disciplina de Introdução a Internet das Coisas (IIC). O seu objetivo é verificar a presença dos alunos nas mesas de trabalho durante as aulas.
+Sistema de Validação de Frequência (SVF), um projeto para a disciplina de Introdução a Internet das Coisas (IIC). O seu objetivo é verificar a presença dos alunos nas mesas de trabalho durante as aulas. Nessa aplicação, desenvolvida em C++, foram utilizados o [SPIFFS](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/storage/spiffs.html) ("SPI Flash File System", isto é, Sistema de Arquivo Flash de Interface Periférica Serial) e a [Adafruit.IO](https://io.adafruit.com/) (plataforma de IoT).
+<br><br>
 
-### 📋 Pré-requisitos
+## 📋 Pré-requisitos
 
-A princípio, para executar o projeto, certifique-se de ter 
+A princípio, antes de executar o sistema, certifique-se de montar o [Circuito]() e de instalar alguma IDE apropriada para executar códigos no formato ".ino", como a [Arduino IDE](https://www.arduino.cc/en/software).
+<br><br>
 
-```
-Dar exemplos
-```
+## 🔧 Instalação
 
-### 🔧 Instalação
-
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-
-Diga como essa etapa será:
+1. Clone este repositório em sua máquina local.
 
 ```
-Dar exemplos
+git clone https://github.com/CaioJustino/svf-projeto-iot.git
 ```
 
-E repita:
+2. Na sua IDE, certifique de instalar a biblioteca "PubSubClient" para lidar com as dependências da conexão com o "Adafruit.IO".
 
 ```
-Até finalizar
+Na "Arduino IDE", acesse: Ferramentas > Gerenciar bibliotecas > PubSubClient
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
+3. Por fim, basta executar o código.
 
 ```
-Dar exemplos
+run
 ```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+<br>
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+* [C++](https://learn.microsoft.com/pt-br/cpp/cpp/?view=msvc-170) - Linguagem de programação responsável pelo desenvolvimento da lógica interna do sistema.
+* [Adafruit.IO](https://io.adafruit.com/) - Plataforma de IoT.
+<br><br>
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+* **Desenvolvimento** - [André Soares](https://github.com/linkParaPerfil)
+* **Desenvolvimento** - [Caio Justino](https://github.com/CaioJustino)
+<br><br>
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
+## ❤ Agradecimentos
 
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
-
-
----
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+* **Professor** - [Leonardo Augusto](https://github.com/linkParaPerfil)
+* **Monitor** - [Gabriel](https://github.com/linkParaPerfil)
+<br><br>

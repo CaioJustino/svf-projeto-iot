@@ -1,6 +1,6 @@
 # Sistema de Validação de Frequência (SVF)
 
-Sistema de Validação de Frequência (SVF), um projeto para a disciplina de Introdução a Internet das Coisas (IIC). O seu objetivo é verificar a presença dos alunos nas mesas de trabalho durante as aulas. Nessa aplicação, desenvolvida em [C++](https://learn.microsoft.com/pt-br/cpp/cpp/?view=msvc-170), foram utilizados o [SPIFFS](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/storage/spiffs.html) ("SPI Flash File System", isto é, Sistema de Arquivo Flash de Interface Periférica Serial) e a [Adafruit.IO](https://io.adafruit.com/) (plataforma de IoT).
+Sistema de Validação de Frequência (SVF), um projeto para a disciplina de Introdução a Internet das Coisas (IIC). O seu objetivo é verificar a presença dos alunos nas mesas de trabalho durante as aulas. Nessa aplicação, desenvolvida em [C++](https://learn.microsoft.com/pt-br/cpp/cpp/?view=msvc-170), foram utilizados o [SPIFFS](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/storage/spiffs.html) ("SPI Flash File System", isto é, Sistema de Arquivo Flash de Interface Periférica Serial) e a [Adafruit IO](https://io.adafruit.com/) (plataforma de IoT).
 <br><br>
 
 ## 📋 Pré-requisitos
@@ -32,7 +32,7 @@ run
 ## 🛠️ Construído com
 
 * [C++](https://learn.microsoft.com/pt-br/cpp/cpp/?view=msvc-170) - Linguagem de programação responsável pelo desenvolvimento da lógica interna do sistema.
-* [Adafruit.IO](https://io.adafruit.com/) - Plataforma de IoT.
+* [Adafruit IO](https://io.adafruit.com/) - Plataforma de IoT.
 <br><br>
 
 ## ✒️ Autores

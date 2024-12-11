@@ -5,7 +5,7 @@ Sistema de Validação de Frequência (SVF), um projeto para a disciplina de Int
 
 ## 📋 Pré-requisitos
 
-A princípio, antes de executar o sistema, certifique-se de montar o [Circuito]() e de instalar alguma IDE apropriada para executar códigos no formato ".ino", como a [Arduino IDE](https://www.arduino.cc/en/software).
+A princípio, antes de executar o sistema, certifique-se de montar o [Circuito](https://wokwi.com/projects/416164682176137217) e de instalar alguma IDE apropriada para executar códigos no formato ".ino", como a [Arduino IDE](https://www.arduino.cc/en/software).
 <br><br>
 
 ## 🔧 Instalação
@@ -37,7 +37,7 @@ run
 
 ## ✒️ Autores
 
-* **Desenvolvimento** - [André Soares](https://github.com/linkParaPerfil)
+* **Desenvolvimento** - [André Soares](https://github.com/OfAndreS)
 * **Desenvolvimento** - [Caio Justino](https://github.com/CaioJustino)
 <br><br>
 

@@ -1,4 +1,4 @@
-# Sistema de Validação de Frequência (SVF)
+# Sistema de Validação de Frequência (SVF) 2.0
 
 Sistema de Validação de Frequência (SVF), um projeto para a disciplina de Introdução a Internet das Coisas (IIC). O seu objetivo é verificar a presença dos alunos nas mesas de trabalho durante as aulas. Nessa aplicação, desenvolvida em [C++](https://learn.microsoft.com/pt-br/cpp/cpp/?view=msvc-170), foram utilizados o [SPIFFS](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/storage/spiffs.html) ("SPI Flash File System", isto é, Sistema de Arquivo Flash de Interface Periférica Serial) e a [Adafruit IO](https://io.adafruit.com/) (plataforma de IoT).
 <br><br>
